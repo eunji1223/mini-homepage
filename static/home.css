@@ -1,0 +1,254 @@
+.content-update {
+  color: rgb(109, 87, 255);
+  flex: 0.2;
+  font-size: 18px;
+  margin: 15px 20px 15px 20px;
+  border-bottom: 1px solid grey;
+}
+.content-list {
+  flex: 0.3;
+  display: flex;
+  flex-direction: row;
+}
+.content-listL {
+  flex: 1;
+}
+.list {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.list-board {
+  font-size: 13px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+}
+.list-photo {
+  font-size: 13px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: coral;
+  color: white;
+}
+.content-listR {
+  flex: 1;
+}
+.content-catalog {
+  flex: 0.5;
+  font-size: 15px;
+  border-bottom: 1px dashed;
+  margin-right: 30px;
+}
+.catalog-write {
+  color: rgb(72, 121, 255);
+}
+.image-container {
+  flex: 1.7;
+  width: 90%;
+  height: 65%;
+  margin: 15px 10px 20px 25px;
+}
+.image-gifimage {
+  width: 100%;
+  height: 85%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./images/kuromigif.gif");
+  background-position: center;
+}
+.menu-container ul {
+  font-family: "Cafe24SsurroundAir";
+  list-style-type: none;
+  margin-top: 45px;
+  margin-left: -40px;
+}
+.menu-container ul li {
+  background-color: rgb(72, 157, 255);
+  height: 30px;
+  width: 70px;
+  border-radius: 0px 7px 7px 0px;
+  margin-top: 10px;
+  padding: 10px 0px 0px 8px;
+}
+.menu-container ul li a {
+  color: white;
+  text-decoration: none;
+}
+.menu-container ul li:hover {
+  background-color: blue;
+}
+.photo-diarytitle {
+  flex: 0.3;
+  width: 90%;
+  height: 4%;
+  background-color: rgb(209, 209, 209);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 2px;
+  padding: 5px 0px 0px 15px;
+  margin: 15px 0px 0px 18px;
+}
+.photo-diarypic1 {
+  flex: 0.5;
+  height: 60%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url("./images/bedkuromi.gif");
+  background-position: center;
+  padding: 10px 0px 0px 15px;
+}
+.photo-diarypic2 {
+  flex: 0.5;
+  height: 49%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url("./images/excitedmamelody.gif");
+  background-position: center;
+}
+.photo-diarypic3 {
+  flex: 0.5;
+  height: 65%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url("./images/gamdongkuromi.gif");
+  background-position: center;
+}
+.photo-diary {
+  flex: 0.3;
+  margin: 0px 0px 50px 50px;
+}
+.datebox{
+  flex: 0.1;
+  display: flex;
+}
+.diary-date {
+  display: flex;
+  flex: 1;
+  width: 85%;
+  height: 6%;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  margin: 15px 50px 0px 18px;
+  font-family: "LAB디지털";
+  font-weight: bolder;
+}
+.diary-date-today {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  color: rgb(61, 107, 255);
+}
+.diary-date-day {
+  flex: 0.5;
+  padding: 0;
+  margin: 0;
+}
+.diary-datelist {
+  flex: 0.8;
+  margin: 9px 3px 0px 0px;
+}
+.diary-date-allday {
+  flex: 1;
+  margin: 3px;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+.diary-content {
+  flex: 0.5;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 20px 0px 20px;
+  padding: 10px;
+}
+.diary-content-date {
+  flex: 0.1;
+  margin: 10px 0px 0px 20px;
+  padding: 0;
+  color: rgb(61, 107, 255);
+  font-size: 0.9rem;
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+.diary-content-write {
+  flex: 0.7;
+  margin: 5px 20px 30px 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Cafe24SsurroundAir";
+}
+.diary-button {
+  flex: 0.1;
+  background-color: white;
+  color: white;
+  border: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 200px;
+  padding-top: 3px;
+}
+.diary-button:hover {
+  background-color: rgb(0, 172, 149);
+}
+
+#secret-box{
+  display: none;
+}
+.guest-info{
+  flex: 0.3;
+  width: 90%;
+  height: 5%;
+  font-family: 'Cafe24SsurroundAir';
+  font-weight: bolder;
+  font-size: 0.9rem;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 2px;
+  padding: 10px 0px 0px 15px;
+  margin: 15px 0px 0px 18px;
+}
+.guest-write{
+  flex: 0.6;
+  padding-top: 50px;
+}
+.guest{
+  flex: 0.5;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+  font-family: 'Cafe24SsurroundAir';
+}
+.guest-profile{
+  flex: 0.4;
+  background-size: 80%;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./images/mymelody_makeup.jpg');
+}
+/*
+.guest-profile1{
+  flex: 0.4;
+  background-size: 80%;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./images/mymelfriend.jpg')
+}
+.guest-profile2{
+  flex: 0.4;
+  background-size: 80%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./images/gosim.jfif');
+}
+*/
+
+
+
